@@ -72,9 +72,13 @@
         <Content Include="Parser\*.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+        <Content Include="Images\Files\Tif\TiffCcittG4.base64">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="BitMiracle.LibTiff.NET" Version="2.5.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
         <PackageReference Include="SkiaSharp" Version="2.88.9" />
         <PackageReference Include="xunit" Version="2.7.0" />
